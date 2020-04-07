@@ -2,6 +2,12 @@ git init -- Inicializa el directorio
 git status -- ver el estatus del proyecto
 git commit -- agrega los archivos crea una foto de los archivos
 git checkout -- deshace los cambios del archivo 
-git add --agrega archivo al entonce de trabajo
+git add --agrega archivo al entonce de trabajo con . agrega todos los archivos
 git log --muestras los commit reaizados
 git diff -- muestra las diferencias del archivo
+    Crear archivo .gitignore y escribor los archivos que se desae ignorar
+git branch -- lista los branch
+git branch nombre -- crea un branch
+git checkout nombre -- cambia de branch
+git remote add origin https://github.com/nahhoj/Test_Repository.git
+git push -u origin master
